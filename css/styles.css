@@ -1,0 +1,23 @@
+body {
+  padding: 20px;
+}
+img {
+  display: block;
+}
+ul {
+  list-style: none;
+}
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.gallery-image {
+  display: block;
+  transition: transform 0.2s ease-in-out;
+  width: 360px;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
